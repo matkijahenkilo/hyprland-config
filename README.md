@@ -1,7 +1,7 @@
 This accursed hyprland session uses the following programs:
 
 ```
-swaylock swayidle hyprpaper mako waybar wpctl brightnessctl
+swaylock swayidle hyprpaper mako waybar wpctl brightnessctl wlogout slurp
 ```
 
 *And many others!*
