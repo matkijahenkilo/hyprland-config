@@ -1,7 +1,7 @@
 This accursed hyprland session uses the following programs:
 
 ```
-swaylock swayidle hyprpaper mako waybar wpctl brightnessctl wlogout slurp mpv
+swaylock swayidle hyprpaper mako waybar wpctl brightnessctl wlogout slurp mpv sway-audio-idle-inhibit
 ```
 
 I encountered many problems using XDPH-git, it seems better to use both XDPH and XDPW
