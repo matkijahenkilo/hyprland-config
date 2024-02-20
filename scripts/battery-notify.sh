@@ -25,13 +25,19 @@ while [ true ]; do
 			SLEEP_TIME=40
 		else
 			SLEEP_TIME=30
+			if (($capc <= 20)); then
+				SLEEP_TIME=20
+				if ((low_flag != 1)); then
+					notify-send "    battery low" "\nfind the charger" -u low -t 6000
+					low_flag=1
+				fi
+			fi
 			if (($capc <= 10)); then
 				SLEEP_TIME=20
 				if ((low_flag != 1)); then
 					notify-send "    battery low" "\nfind the charger" -u low -t 6000
 					low_flag=1
 				fi
-
 			fi
 			if (($capc <= 5)); then
 				SLEEP_TIME=15
